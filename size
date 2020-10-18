@@ -1,0 +1,23 @@
+
+import java.util.*; 
+  
+public class size { 
+    public static void main(String args[]) 
+    { 
+        // Creating an empty Stack 
+        Stack<String> stack = new Stack<String>(); 
+  
+        // Use add() method to add elements into the Stack 
+        stack.add("Eight"); 
+        stack.add("Nine"); 
+        stack.add("Ten"); 
+        stack.add("One"); 
+        stack.add("Two"); 
+  
+        // Displaying the Stack 
+        System.out.println("Stack: " + stack); 
+  
+        // Displaying the size of Stack 
+        System.out.println("The size is: " + stack.size()); 
+    } 
+} 
